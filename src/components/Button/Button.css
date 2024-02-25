@@ -1,0 +1,111 @@
+.Buttons {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+.LightBox {
+    display: flex;
+    gap: 37px;
+    padding: 20px;
+}
+.DarkBox {
+    display: flex;
+    background-color: #000;
+    gap: 37px;
+    padding: 20px;
+}
+.LightPrimary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.LightSecondary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.DarkPrimary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.DarkSecondary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.Button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.Button_theme_light.Button_type_primary {
+    color: #fff;
+    background-color: #000;
+}
+
+.Button_theme_light.Button_type_primary.Button_hover_yes {
+    background-color: #5f5f5f;
+}
+.Button_theme_light.Button_type_primary.Button_disable_yes {
+    background-color: #cfcfcf;
+}
+.Button_theme_light.Button_type_secondary {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+.Button_theme_light.Button_type_secondary.Button_hover_yes {
+    color: #5f5f55;
+    background-color: #fff;
+    border-color: #5f5f5f;
+}
+.Button_theme_light.Button_type_secondary.Button_disable_yes {
+    color: #cfcfcf;
+    background-color: #fff;
+    border-color: #cfcfcf;
+}
+.Button_theme_dark.Button_type_primary {
+    color: #000;
+    background-color: #fff;
+}
+.Button_theme_dark.Button_type_primary.Button_hover_yes {
+    color: #0a0a0a;
+    background-color: #cfcfcf;
+}
+.Button_theme_dark.Button_type_primary.Button_disable_yes {
+    color: #878787;
+    background-color: #5f5f5f;
+}
+.Button_theme_dark.Button_type_secondary {
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+}
+.Button_theme_dark.Button_type_secondary.Button_hover_yes {
+    color: #fff;
+    background-color: #000;
+    border-color: #cfcfcf;
+}
+.Button_theme_dark.Button_type_secondary.Button_disable_yes {
+    color: #878787;
+    background-color: #000;
+    border-color: #5f5f5f;
+}
+/* .NormalButtonBlock {
+
+}
+.HoverButtonBlock {
+
+}
+.DisableButtonBlock {
+    
+} */
