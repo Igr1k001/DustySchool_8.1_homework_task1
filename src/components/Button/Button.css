@@ -52,10 +52,10 @@
     background-color: #000;
 }
 
-.Button_theme_light.Button_type_primary.Button_hover_yes {
+.Button_theme_light.Button_type_primary.Button_hover {
     background-color: #5f5f5f;
 }
-.Button_theme_light.Button_type_primary.Button_disable_yes {
+.Button_theme_light.Button_type_primary.Button_disable {
     background-color: #cfcfcf;
 }
 .Button_theme_light.Button_type_secondary {
@@ -63,12 +63,12 @@
     background-color: #fff;
     border-color: #000;
 }
-.Button_theme_light.Button_type_secondary.Button_hover_yes {
+.Button_theme_light.Button_type_secondary.Button_hover {
     color: #5f5f55;
     background-color: #fff;
     border-color: #5f5f5f;
 }
-.Button_theme_light.Button_type_secondary.Button_disable_yes {
+.Button_theme_light.Button_type_secondary.Button_disable {
     color: #cfcfcf;
     background-color: #fff;
     border-color: #cfcfcf;
@@ -77,11 +77,11 @@
     color: #000;
     background-color: #fff;
 }
-.Button_theme_dark.Button_type_primary.Button_hover_yes {
+.Button_theme_dark.Button_type_primary.Button_hover {
     color: #0a0a0a;
     background-color: #cfcfcf;
 }
-.Button_theme_dark.Button_type_primary.Button_disable_yes {
+.Button_theme_dark.Button_type_primary.Button_disable {
     color: #878787;
     background-color: #5f5f5f;
 }
@@ -90,22 +90,13 @@
     background-color: #000;
     border-color: #fff;
 }
-.Button_theme_dark.Button_type_secondary.Button_hover_yes {
+.Button_theme_dark.Button_type_secondary.Button_hover {
     color: #fff;
     background-color: #000;
     border-color: #cfcfcf;
 }
-.Button_theme_dark.Button_type_secondary.Button_disable_yes {
+.Button_theme_dark.Button_type_secondary.Button_disable {
     color: #878787;
     background-color: #000;
     border-color: #5f5f5f;
 }
-/* .NormalButtonBlock {
-
-}
-.HoverButtonBlock {
-
-}
-.DisableButtonBlock {
-    
-} */
